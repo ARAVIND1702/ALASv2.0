@@ -1,0 +1,89 @@
+
+.kk{
+    color: currentColor;
+    
+
+}
+
+.badge {
+    padding: 3px 6px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    color: #ffffff;
+    background: #d63030;
+}
+.yellow{
+  padding: 3px 6px;
+  font-size: 9px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  color: #0d0c0c;
+  background: #d6d330;
+}
+
+.menu{
+    background-color: none;
+}
+.menu:hover{
+    color: #d63030;
+    background-color: rgba(30, 70, 191, 0.495) !important;
+}
+
+
+.ps-sidebar-image{
+  height: 103% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ANIMATION */
+.ico{
+  background-clip: content-box;
+  height: 14px;
+  display:initial;
+  width: 600px;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+/* @keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+} */
+
+@keyframes bounce {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
